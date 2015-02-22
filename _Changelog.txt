@@ -1,0 +1,133 @@
+24/10/2014------------------------------------------------------------------
+New:
+	Changelog now exists.
+	Mobile query functional, framework for mobile optimization
+Fixed:
+	Nav dropping below header before mobile snap points
+
+30/10/2014------------------------------------------------------------------
+Tweaks:
+	Football page content edited.
+Fixed:
+	Unordered lists, such as in Benefits sections, no longer go crazy with spacing.
+
+6/11/2014-------------------------------------------------------------------
+New:
+	Gallery for Football
+Fixed:
+	Benefit list for Football now properly spaced. HOWEVER, likely involved with the gallery, the first list item as well as the header bumped right of the new gallery.
+
+12/11/2014------------------------------------------------------------------
+Added:
+	Solid framework for galleries now established.
+	Football gallery with 2 pics/captions.
+
+Tweaked:
+	Football content revised, made smaller and more relevant.
+
+Removed:
+	Background. Don't sue me bro.
+	Disabled snappoints for mobile/tablet. Reference "Other"
+
+Other:
+	Belaying fixes to mobile/tablet design. Will fix later, but as of now, not on the agenda.
+
+14/11/2014------------------------------------------------------------------
+Added:
+	More content to the Football How To Play gallery.
+
+Tweaked:
+	Football page header centered.
+	Gallery format improved, now shows image to the left and text to the right, and spans the page.
+
+Fixed:
+	Finally fixed the Benefits list.
+
+18/11/2014------------------------------------------------------------------
+Added:
+	Baseball page now exists, but it is mostly just a copy/paste of the football page.
+
+Tweaked:
+	Football page content finished.
+
+Bugs:
+	(Unresolved, not major) The How To Play gallery border will only cover to the last letter if it's only one line long. If this occurs more than once, gallery elements will bump on the same line, and the header for Benefits will bump to the first available space. Since this occurs only under specific and uncommon instances, and since a bug-fix would likely require a large overhaul in the CSS, this bugfix is very low on priority.
+
+20/11/2014------------------------------------------------------------------
+Added:
+	Baseball page content now present.
+
+24/11/2014------------------------------------------------------------------
+New:
+	Baseball Benefits accurate, no longer displaying Soccer.
+	Baseball How To Play now present, at least with words.
+	Baseball Page now finalized. Note that two images are missing from the How To Play gallery, but aside from that, the page is ready for publication.
+	Basketball page now exists, with somewhat content.
+
+Fixed:
+	Home page now has the background image. Whoops ^.^
+26/11/2014------------------------------------------------------------------
+New:
+	Basketball page now complete, with the exception of images.
+	Baseball page now has "Home Run" image.
+
+Bugs:
+	(Resolved) Basketball Benefits list was centered for some reason, and the Benefits header was in the middle of the gallery.
+
+Resolved:
+	The bug above was splatted. Apparently adding closing tags makes a difference.
+2/12/2014-------------------------------------------------------------------
+New:
+	Baseball gallery finished.
+	Basketball gallery begins.
+
+8/12/2014-------------------------------------------------------------------
+Fixed:
+	Gave clarification on a picture anomoly in the fifth item in the baseball gallery.
+	Unknown Issue: Basketball was giving a Soccer title, and vise versa. This was fixed. Not sure why it existed in the first place.
+
+Bug:
+	(Resolved, Aesthetic Major) The background image ceased to exist.
+
+10/12/2014------------------------------------------------------------------
+New:
+	Complete basketball page.
+
+12/12/2014------------------------------------------------------------------
+New:
+	Soccer page gallery getting filled.
+
+18/12/2014------------------------------------------------------------------
+New:
+	Soccer gallery filled.
+
+Fixed:
+	Soccer gallery item 1, the picture of the field, was grotesquely stretched. As was item 5, the scoreboard.... and the item 5, scoreboard, for basketball.
+	A similar issue, some of the subtext (when the image doesn't load, the text that displays in it's place) was reading "Pitcher" or other inaccurate substitutes.
+
+New Agenda:
+	Plans for intigrating links to "demos"
+	Optional quiz to see how well you know your sport.
+5/1/2015--------------------------------------------------------------------
+New:
+	New "Try It Out" section, providing links to demos. Currently 2 for Football, 1 for Baseball, and 2 for Soccer. Basketball coming soon. Note: We don't own or profit from the games.
+?/1/2015~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+New:
+	Added more games so each page has at least two.
+27/1/2015-------------------------------------------------------------------
+Bugs:
+	(Unresolved, Content Minor) Evidently, basketball's Try It Out section has the soccer games.
+
+Fixed:
+	Removed unnecessary code from pages and CSS.
+
+New:
+	Resumed progress on the mobile format.
+	Beginning transition from HTML to PHP. Notice, unable to efficiently test as of yet. Working on it.
+6/2/2015-------------------------------------------------------------------
+New:
+	SITE IS LIVE. fit future.host22.com
+Fixed:
+	Discovered upon going live, the PHP apparently KILLS load time. Simplified/streamlined PHP to make it have a reasonable load time as well as reduced storage space.
+Bug:
+	For some reason, images aren’t working

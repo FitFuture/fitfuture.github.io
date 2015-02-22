@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Reset Ends Here~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+html{
+	font-family:Arial, "Times New Roman", "sans-serif";
+}
+
+ul{
+	width: 60%;
+}
+
+p{
+	width: 100%;
+}
+
+li{
+	float: left;
+	list-style-type: none;			/* Removes bullet points. Quite useful */
+	display: inline;
+}
+
+h1{
+	font-size: 190%;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 140%;
+	font-weight: bold;
+}
+
+.content{
+	float: left;
+	margin-top: 2%;
+	margin-left: 9%;
+	margin-right: 50%;	/*	Unknown purpose. May or may not do something */
+	margin-bottom: 120px;
+	width: 50%;
+	background-color: rgba(80,200,60,.6);		/* Actual Color */
+	border-style: solid;
+	border-width: 2px;						/* Border. Because yes. */
+	border-color: rgba(80,180,60,1);
+}
+
+.content p, .content h1, .content h2, .content li{		/* Necessary, keeps the text from popping out the sides */
+	padding: 10px;
+	width: 95%;
+}
+										/* !!!!!!! Nav */
+#home{
+	width: 150px;
+	height: 150px;
+	float: left;
+	background-color: #0D4227;
+}
+
+.homelink{							/* Unknown effect */
+	height: 150px;
+	width: 200px;
+	/*opacity: 1;*/
+}
+
+.navi{
+	text-align: center;
+	background-color: #0D4227;
+}
+
+/*#nav ul li p{
+	background-color: #0D4227;
+	height: 22px;
+	vertical-align: center;
+	padding-top: 5%;
+}*/
+
+#nav ul{						/* IMPORTANT: Stops nav from collapsing in on itself. Value itself might not be as important.*/
+	width: 10000000%;
+}
+
+#info{
+	/*background-color: teal;		Tenting Color*/
+	position: fixed;
+	bottom: 0;
+	width: 100px;
+	opacity: 1;
+	background-color: #0D4227;
+}
+
+#info img{
+	float: left;
+}
+
+#infop{
+	position: fixed;
+	bottom: 0;
+	padding-left: 120px;
+	width: 220px;
+	height: 100px;
+	background-color: #0D4227;
+	z-index: -1;
+}
+
+#infop p{
+	padding-top: 10px;
+}
+/* Nav Dropdown Text */
+ul li p{
+	display: none;
+}
+ul li a:hover > p{
+	display: block;
+	color: white;
+}
+
+.blue{	/* em class */
+	color: #003399;
+	font-style: italic;
+}
+
+.benefits{
+	width: 100%;
+}
+/* Important: Galleries for sports pages need this. */
+div.img {
+	border: 1px solid #0D4227;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}
+
+div.img img {
+	display: inline;
+	border: 1px solid #0D4227;
+	background-color: #0D4027;
+	float: left;
+}
+
+div.desc {
+	text-align: left;
+	font-weight: normal;
+	margin-left: 154px;
+	padding: 3px;
+}
+
+#contenthead{
+	text-align: center;
+}
+
+.benefits ul li{
+	float: left;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ OTHER FORMAT START ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 400px){
+	.content{
+	background: red;		/*Testing Color*/
+	}
+
+	.content p, .content h1, .content h2{
+		padding: 2px;
+	}
+	
+	#nav{
+		max-width: 400px;
+	}
+	
+	.navi{
+		width: 80px;
+		float: top;
+	}
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MOBILE=TESTING. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* @media (min-width: 401px) and (max-width: 800px) {
+	.content{
+		background: green;
+	}
+}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ TABLET=DISABLED. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DERP TEST AREA ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.demo{
+	float: left;
+	width: 100%;
+
+}
